@@ -15,6 +15,9 @@
 		064ED5B02711EE5100F516C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064ED5AE2711EE5100F516C8 /* LaunchScreen.storyboard */; };
 		064ED5BB2711EE5200F516C8 /* IdeaMemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064ED5BA2711EE5200F516C8 /* IdeaMemoAppTests.swift */; };
 		064ED5C62711EE5200F516C8 /* IdeaMemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064ED5C52711EE5200F516C8 /* IdeaMemoAppUITests.swift */; };
+		3F30535EC8AE320A05D6A4BB /* Pods_IdeaMemoApp_IdeaMemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38916904BB00D66DA62F6B7 /* Pods_IdeaMemoApp_IdeaMemoAppUITests.framework */; };
+		519CB3F2E053BB926E66BFE6 /* Pods_IdeaMemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4AA663C95092FFCF36218A /* Pods_IdeaMemoAppTests.framework */; };
+		9E957779BBFCD1818BF9CCC6 /* Pods_IdeaMemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05D95B7DCC801B73C2DAF30 /* Pods_IdeaMemoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		064ED5C12711EE5200F516C8 /* IdeaMemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaMemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		064ED5C52711EE5200F516C8 /* IdeaMemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaMemoAppUITests.swift; sourceTree = "<group>"; };
 		064ED5C72711EE5200F516C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C8516540109B16C7288168F /* Pods-IdeaMemoApp-IdeaMemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaMemoApp-IdeaMemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-IdeaMemoApp-IdeaMemoAppUITests/Pods-IdeaMemoApp-IdeaMemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20C0AD4C2D8FBD4292DB0314 /* Pods-IdeaMemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaMemoApp.release.xcconfig"; path = "Target Support Files/Pods-IdeaMemoApp/Pods-IdeaMemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		2F01B6B83B0BA6118142C1D2 /* Pods-IdeaMemoApp-IdeaMemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaMemoApp-IdeaMemoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-IdeaMemoApp-IdeaMemoAppUITests/Pods-IdeaMemoApp-IdeaMemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		334B6328630C2E7A3F78E458 /* Pods-IdeaMemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaMemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-IdeaMemoAppTests/Pods-IdeaMemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BBBD0D4559ABF3CA907EACB /* Pods-IdeaMemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaMemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-IdeaMemoAppTests/Pods-IdeaMemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E4AA663C95092FFCF36218A /* Pods_IdeaMemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdeaMemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05D95B7DCC801B73C2DAF30 /* Pods_IdeaMemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdeaMemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D685178F3E5C154E9A375207 /* Pods-IdeaMemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaMemoApp.debug.xcconfig"; path = "Target Support Files/Pods-IdeaMemoApp/Pods-IdeaMemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E38916904BB00D66DA62F6B7 /* Pods_IdeaMemoApp_IdeaMemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdeaMemoApp_IdeaMemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E957779BBFCD1818BF9CCC6 /* Pods_IdeaMemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519CB3F2E053BB926E66BFE6 /* Pods_IdeaMemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F30535EC8AE320A05D6A4BB /* Pods_IdeaMemoApp_IdeaMemoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				064ED5B92711EE5200F516C8 /* IdeaMemoAppTests */,
 				064ED5C42711EE5200F516C8 /* IdeaMemoAppUITests */,
 				064ED5A12711EE4F00F516C8 /* Products */,
+				2BC6388C4650F0F5475E2F96 /* Pods */,
+				1F6B124D1E8BC3225D1E9F43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = IdeaMemoAppUITests;
 			sourceTree = "<group>";
 		};
+		1F6B124D1E8BC3225D1E9F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C05D95B7DCC801B73C2DAF30 /* Pods_IdeaMemoApp.framework */,
+				E38916904BB00D66DA62F6B7 /* Pods_IdeaMemoApp_IdeaMemoAppUITests.framework */,
+				8E4AA663C95092FFCF36218A /* Pods_IdeaMemoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BC6388C4650F0F5475E2F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D685178F3E5C154E9A375207 /* Pods-IdeaMemoApp.debug.xcconfig */,
+				20C0AD4C2D8FBD4292DB0314 /* Pods-IdeaMemoApp.release.xcconfig */,
+				0C8516540109B16C7288168F /* Pods-IdeaMemoApp-IdeaMemoAppUITests.debug.xcconfig */,
+				2F01B6B83B0BA6118142C1D2 /* Pods-IdeaMemoApp-IdeaMemoAppUITests.release.xcconfig */,
+				334B6328630C2E7A3F78E458 /* Pods-IdeaMemoAppTests.debug.xcconfig */,
+				8BBBD0D4559ABF3CA907EACB /* Pods-IdeaMemoAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064ED5CA2711EE5200F516C8 /* Build configuration list for PBXNativeTarget "IdeaMemoApp" */;
 			buildPhases = (
+				93AAAA3AD5C924C9FE9C8375 /* [CP] Check Pods Manifest.lock */,
 				064ED59C2711EE4F00F516C8 /* Sources */,
 				064ED59D2711EE4F00F516C8 /* Frameworks */,
 				064ED59E2711EE4F00F516C8 /* Resources */,
+				DC9DB812A5E1E9930328B848 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064ED5CD2711EE5200F516C8 /* Build configuration list for PBXNativeTarget "IdeaMemoAppTests" */;
 			buildPhases = (
+				6908865E811F0F433483CC9E /* [CP] Check Pods Manifest.lock */,
 				064ED5B22711EE5200F516C8 /* Sources */,
 				064ED5B32711EE5200F516C8 /* Frameworks */,
 				064ED5B42711EE5200F516C8 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064ED5D02711EE5200F516C8 /* Build configuration list for PBXNativeTarget "IdeaMemoAppUITests" */;
 			buildPhases = (
+				51B6E02BEEF1D66320EF1E74 /* [CP] Check Pods Manifest.lock */,
 				064ED5BD2711EE5200F516C8 /* Sources */,
 				064ED5BE2711EE5200F516C8 /* Frameworks */,
 				064ED5BF2711EE5200F516C8 /* Resources */,
+				D01FF770C1A0F5F9F538DB1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51B6E02BEEF1D66320EF1E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IdeaMemoApp-IdeaMemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6908865E811F0F433483CC9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IdeaMemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93AAAA3AD5C924C9FE9C8375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IdeaMemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D01FF770C1A0F5F9F538DB1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdeaMemoApp-IdeaMemoAppUITests/Pods-IdeaMemoApp-IdeaMemoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdeaMemoApp-IdeaMemoAppUITests/Pods-IdeaMemoApp-IdeaMemoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdeaMemoApp-IdeaMemoAppUITests/Pods-IdeaMemoApp-IdeaMemoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9DB812A5E1E9930328B848 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdeaMemoApp/Pods-IdeaMemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdeaMemoApp/Pods-IdeaMemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdeaMemoApp/Pods-IdeaMemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		064ED59C2711EE4F00F516C8 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		064ED5CB2711EE5200F516C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D685178F3E5C154E9A375207 /* Pods-IdeaMemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		064ED5CC2711EE5200F516C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C0AD4C2D8FBD4292DB0314 /* Pods-IdeaMemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		064ED5CE2711EE5200F516C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334B6328630C2E7A3F78E458 /* Pods-IdeaMemoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		064ED5CF2711EE5200F516C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBBD0D4559ABF3CA907EACB /* Pods-IdeaMemoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		064ED5D12711EE5200F516C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8516540109B16C7288168F /* Pods-IdeaMemoApp-IdeaMemoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		064ED5D22711EE5200F516C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F01B6B83B0BA6118142C1D2 /* Pods-IdeaMemoApp-IdeaMemoAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
